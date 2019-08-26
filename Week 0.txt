@@ -1,0 +1,60 @@
+DevilSec Club Training 01 - 08/23/2019
+4:15-5:15 pm, BYENG 209
+
+What is the Club about? 2-3 mins [Allen]
+
+
+Introduction of DMentors. 5-10 mins
+
+Ankur
+Allen
+Matt
+Hakim
+Joe
+Dr. Dijiang Huang (Faculty Advisor)
+
+Cybersecurity Training 10 mins [Ankur/Allen]
+-	How cybersecurity is taught at ASU.
+-	Different Opportunities and Job Requirements in the field.
+-	Topics we will cover.
+
+WRCCDC 10-15 mins [Ankur]
+-	PPT
+-	Past Teams
+
+Hack the Box 10 mins [Matt]
+-	What it is
+-	How teams work
+Matt will discuss this.
+
+Bug Bounties 5 mins [Allen]
+
+
+Prerequisites  10 mins [Hakim/Ankur]
+
+1)	What is Virtualization ?
+2)	Download Virtualbox
+3)	Download Windows server 2016
+4)	What is a Virtual Machine and why we need them?
+Stored on physical HDD.
+Easier to copy, transfer, clone.
+            Terminology - Host Computer/ Guest VM.
+            You cannot create a VM with more RAM/ processing power than host
+            Each host can have multiple guest VMs.
+
+Tasks - To Do
+
+Task 1: Creation of a NAT network
+1.	Create a new NAT network in Virtualbox called “mynat” , assign the network range/ CIDR “192.168.0.0/24” to this NAT network.
+2.	What is meant by NAT?
+3.	What is DHCP?
+4.	What is port forwarding?
+5.	Is virtualization enabled in your BIOS?
+
+Task 2: Creating a VM in VBox
+1.	Create a VM with downloaded “Windows Server 2016” iso file.
+2.	Assign 4GB RAM to the VM, 40-50 Gb Hard Disk.
+3.	What is difference between creating fixed size vs dynamically allocated hard disk?
+4.	For VM you created, go to Settings-> Storage->Empty Disk-> Click on Disk icon->Select iso icon
+5.	Set the network under settings to NAT network created in Task 1.
+6.	Start the VM, go through the installation process (Custom Installation) and install Windows Server 2016. Select option (Datacenter Desktop Option from list of installation options).
